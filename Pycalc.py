@@ -17,9 +17,7 @@ while True:
     '+' for addition
     '-' for subtraction
 
-    'V' for coffee cooking
     'C' for mode change[Not working]
-    'W' for wave
     'E' for exit
     ''')
     # Exit Check
@@ -32,80 +30,6 @@ while True:
     '2' for rough mode
     '''))
     #Yep, coffee.
-    elif operation.upper() == 'W':
-        t.sleep(3)
-        print("Really?")
-        t.sleep(2)
-        print("Wave?")
-        t.sleep(3)
-        print("Do you know, that this is unlimited console spam?")
-        t.sleep(1.5)
-        print("Huh...")
-        t.sleep(3)
-        print("Are you sure?")
-        t.sleep(4)
-        print("Ah, you cannot answer now, too late.")
-        t.sleep(3)
-        print("Okay, here is your waves...")
-        t.sleep(2)
-        print("*tap*")
-        t.sleep(2)
-        while True:
-            print(":")
-            t.sleep(0.01)
-            print("::")
-            t.sleep(0.01)
-            print(":::")
-            t.sleep(0.01)
-            print("::::")
-            t.sleep(0.01)
-            print(":::::")
-            t.sleep(0.01)
-            print("::::::")
-            t.sleep(0.01)
-            print(":::::::")
-            t.sleep(0.01)
-            print(":::::::")
-            t.sleep(0.01)
-            print("::::::")
-            t.sleep(0.01)
-            print(":::::")
-            t.sleep(0.01)
-            print("::::")
-            t.sleep(0.01)
-            print(":::::")
-            t.sleep(0.01)
-            print("::::::")
-            t.sleep(0.01)
-            print(":::::::")
-            t.sleep(0.01)
-            print("::::::")
-            t.sleep(0.01)
-            print(":::::")
-            t.sleep(0.01)
-            print("::::")
-            t.sleep(0.01)
-            print(":::")
-            t.sleep(0.01)
-            print("::::")
-            t.sleep(0.01)
-            print(":::")
-            t.sleep(0.01)
-            print("::")
-    elif operation.upper() == 'V':
-        print("Coocking coffee...")
-        t.sleep(0.75)
-        print("...")
-        t.sleep(0.75)
-        print("....")
-        t.sleep(0.75)
-        print(".....")
-        t.sleep(0.75)
-        print("......")
-        t.sleep(0.75)
-        print(".......")
-        t.sleep(1)
-        print("Coffee Done!")
     else:
         number_1 = int(input('Number one: '));
         number_2 = int(input('Number two: '));
