@@ -6,7 +6,7 @@ t.sleep(0.15)
 print("W E L C O M E");
 print("Author: Vitaz145");
 print("URL: https://vk.com/vitaz145");
-print("Version: 2.1b");
+print("Version: 2.3a");
 t.sleep(1)
 #Precise Cycle
 while True:
